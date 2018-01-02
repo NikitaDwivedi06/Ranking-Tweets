@@ -1,6 +1,6 @@
 from py2neo import Graph, Node, Relationship, authenticate
 
-authenticate("localhost:7474","neo4j","nikita")	
+authenticate("","","")	
 graph = Graph(authenticate)
 text_and_ranks = []  #stores a list of tuples, each tuple has a tweet text and its rank
 query = '''
